@@ -19,5 +19,8 @@ public class Job {
 
     public void updateJob() {}
 
-//    public void ___() {}
+    @Override
+    public String toString() {
+        return String.format("Job details");
+    }
 }

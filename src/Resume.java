@@ -19,5 +19,7 @@ public class Resume {
 
     public void updateResume() {}
 
-//     public void __() {}
+    public HashMap<String,List<String>> getHighestEducationInformation() {
+        return new HashMap<>();
+    }
 }
